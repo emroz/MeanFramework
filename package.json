@@ -1,14 +1,14 @@
 {
-  "name": "multivision",
+  "name": "MeanFramework",
   "version": "0.0.0",
-  "description": "meanstack emroz",
+  "description": "Emroz's MeanFramework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines" :{
-    "node":"0.10.x",
-    "npm":"1.4.x"
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
   },
   "author": "emroz habib",
   "license": "ISC",
@@ -16,6 +16,15 @@
     "express": "^3.4.4",
     "jade": "^1.3.1",
     "mongoose": "^3.8.11",
+    "passport": "^0.2.0",
+    "passport-local": "^1.0.0",
     "stylus": "^0.45.1"
+  },
+  "devDependencies": {
+    "karma": "^0.12.16",
+    "karma-chai-plugins": "^0.2.1",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-mocha": "^0.1.3",
+    "mocha": "^1.20.0"
   }
 }

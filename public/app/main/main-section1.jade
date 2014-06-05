@@ -1,0 +1,5 @@
+.panel.panel-primary
+    .panel-heading.text-center Main Section 1
+    .panel-body
+        .row(ng-repeat="topic in topics | filter:{featured:true}" )
+            .col-md-12 {{topic.name}}
